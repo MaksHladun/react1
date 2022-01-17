@@ -1,0 +1,39 @@
+.status {
+  background-color: aqua;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+}
+.container {
+  margin: 50px auto;
+}
+.activ {
+  composes: status;
+  background-color: green;
+}
+.notActiv {
+  composes: status;
+  background-color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 350px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px 5px grey;
+  margin: 20px auto;
+}
+
+.avatar {
+  width: 75px;
+  margin: 0 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
